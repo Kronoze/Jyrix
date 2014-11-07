@@ -6,6 +6,11 @@ public class Lyrics {
 	private String song;
 	private StringBuilder lyrics;
 	
+	public Lyrics(String artist, String song) {
+		this.artist = artist;
+		this.song = song;
+	}
+	
 	public String getArtist() {
 		return artist;
 	}
